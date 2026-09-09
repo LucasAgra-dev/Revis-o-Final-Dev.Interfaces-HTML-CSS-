@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Desenvolvimento de Interfaces</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Desenvolvimento de Interfaces</h1>
+
+        <nav>
+
+            <a href="#inicio">Início</a>
+            <a href="#ihc">IHC</a>
+            <a href="#design">Design Thinking</a>
+            <a href="#nielsen">Heurísticas de Nielsen</a>
+            <a href="#wcag">WCAG e Cores</a>
+            <a href="#uxui">UX/UI</a>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+        <section id="inicio" class="pagina">
+
+            <h2>Bem-vindo!</h2>
+
+            <p>
+                Este site apresenta conteúdos estudados na disciplina de Desenvolvimento de Interfaces.
+            </p>
+
+            <p>
+                Utilize o menu acima para conhecer os temas.
+            </p>
+
+            <img src="capa.png" alt="capa">
+
+        </section>
+
+        <section id="ihc" class="pagina">
+
+            <h2>Interação Humano-Computador</h2>
+
+            <p>
+                A Interação Humano-Computador (IHC) é uma área da Computação que estuda a interação entre
+                pessoas e sistemas computacionais.
+                Seu objetivo é desenvolver interfaces que sejam fáceis de aprender, eficientes, seguras,
+                acessíveis e agradáveis de utilizar.
+                A IHC considera não apenas o funcionamento de um sistema, mas também as necessidades,
+                características e experiências dos usuários.
+            </p>
+
+            <p>
+                Seu objetivo é compreender como os usuários utilizam
+                computadores, aplicativos, sites e outros sistemas digitais.
+            </p>
+
+
+            <h3>Importância da IHC</h3>
+
+            <p>
+                A IHC é importante porque não basta um sistema funcionar. Ele também precisa ser fácil de
+                entender e usar.
+                Uma interface bem planejada pode diminuir erros e tornar a experiência do usuário muito melhor.
+                A acessibilidade também é importante para que pessoas com diferentes necessidades consigam
+                utilizar os sistemas.
+            </p>
+
+
+            <h3>Principais características</h3>
+
+            <ul>
+
+                <li>Usabilidade: ser fácil de usar.</li>
+                <li>Acessibilidade: poder ser utilizada por diferentes pessoas.</li>
+                <li>Eficiência: permitir que as tarefas sejam realizadas rapidamente.</li>
+                <li>Segurança: evitar erros e ajudar o usuário a corrigi-los.</li>
+                <li>Facilidade de aprendizado: ser simples de entender.</li>
+
+
+            </ul>
+            
+            <h3>Mudanças da IHC</h3>
+            <p>
+            A IHC passou por grandes mudanças conforme os computadores e as tecnologias foram evoluindo.
+            </p>
+            <ul>
+            <li><b>1ª geração (1940-1950):</b> computadores enormes, com válvulas, e interação muito limitada.</li>
+            <li><b>2ª bgeração (1950-1960):</b> surgiram os transistores, tornando os computadores menores e mais rápidos.</li>
+            <li><b>3ª geração (1960-1970):</b> circuitos integrados começaram a ser usados e a interação ficou mais prática.</li>
+            <li><b>4ª geração (1970-1980):</b> surgiram os computadores pessoais e interfaces mais fáceis de usar.</li>
+            <li><b>5ª geração (1980-atualmente):</b> computadores ficaram cada vez mais avançados, com interfaces gráficas, Internet, telas touch, comandos de voz e inteligência artificial.</li>
+            </ul>
+
+            <h3>IHC no dia a dia</h3>
+
+            <p>
+                A IHC está presente em redes sociais, aplicativos bancários,
+                jogos, sites e diversos outros sistemas que utilizamos.
+            </p>
+
+            <img src="12443805.png" alt="img_IHC">
+
+        </section>
+
+        <section id="design" class="pagina">
+
+            <h2>Design Thinking</h2>
+
+            <p>
+                Design Thinking é uma abordagem utilizada para solucionar problemas colocando as necessidades das pessoas no centro
+                do processo.
+            </p>
+
+            <h3>1. Empatia</h3>
+            <p>
+                Nesta etapa é necessário entender o usuário, suas necessidades, dificuldades e objetivos.
+            </p>
+
+            <h3>2. Definição</h3>
+            <p>
+                Após entender o problema, é necessário definir quais são os principais desafios que precisam ser resolvidos.
+            </p>
+
+            <h3>3. Ideação</h3>
+            <p>
+                Nesta etapa são criadas diferentes ideias e possíveis soluções para o problema.
+            </p>
+
+            <h3>4. Prototipação</h3>
+            <p>
+                As ideias começam a ser transformadas em protótipos para visualizar uma possível solução.
+            </p>
+
+            <h3>5. Testes</h3>
+            <p>
+                Os protótipos são testados para identificar pontos positivos e possíveis melhorias.
+            </p>
+
+            <img src="design.png" alt="design">
+
+        </section>
+
+        <section id="nielsen" class="pagina">
+
+            <h2>As 10 Heurísticas de Nielsen</h2>
+
+            <p>
+            As heurísticas de Nielsen são princípios utilizados para melhorar a usabilidade de interfaces.
+            </p>
+
+
+           <div class="container">
+            <div class="card">
+
+             <h3>1. Visibilidade do status do sistema</h3> 
+             <p>
+            O sistema deve informar ao usuário o que está acontecendo, mostrando mensagens, carregamentos e outras informações importantes.
+            </p>
+            </div>
+           
+            <div class="card">
+           
+            <h3>2. Correspondência entre o sistema e o mundo real</h3>
+            <p>
+            O sistema deve utilizar palavras, símbolos e informações que sejam familiares para o usuário.
+            </p> 
+            </div>
+
+            <div class="card">
+
+            <h3>3. Controle e liberdade do usuário</h3>
+            <p>
+            O usuário deve conseguir desfazer ou cancelar ações quando cometer algum erro.
+            </p>
+            </div>
+ 
+            <div class="card">
+            
+            <h3>4. Consistência e padronização</h3>
+            <p>
+            Elementos semelhantes devem funcionar e aparecer de maneira consistente em diferentes partes do sistema.
+            </p>
+            </div>
+ 
+            <div class="card">
+    
+            <h3>5. Prevenção de erros</h3>
+            <p>
+            O sistema deve evitar que erros aconteçam e orientar o usuário antes que uma ação problemática seja realizada.
+            </p>
+            </div>
+ 
+            <div class="card">
+
+            <h3>6. Reconhecimento em vez de memorização</h3>
+            <p>
+            As informações e opções importantes devem estar visíveis, evitando que o usuário precise memorizar informações.
+            </p>
+            </div>
+ 
+            <div class="card">
+ 
+            <h3>7. Flexibilidade e eficiência de uso</h3>
+            <p>
+            O sistema deve atender tanto usuários iniciantes quanto usuários experientes, oferecendo maneiras mais rápidas de realizar tarefas.
+            </p>
+            </div>
+ 
+            <div class="card">
+ 
+            <h3>8. Estética e design minimalista</h3>
+            <p>
+            A interface deve apresentar apenas informações relevantes, evitando elementos desnecessários que possam distrair o usuário.
+            </p>
+            </div>
+ 
+            <div class="card">
+ 
+            <h3>9. Ajudar a reconhecer e corrigir erros</h3>
+            <p>
+            Quando ocorrer um erro, o sistema deve explicar o problema de forma clara e indicar como o usuário pode solucioná-lo.
+            </p>
+            </div>
+ 
+            <div class="card">
+ 
+            <h3>10. Ajuda e documentação</h3>
+            <p>
+            O sistema deve oferecer ajuda e documentação para auxiliar o usuário quando ele tiver dúvidas ou dificuldades.
+            </p>
+        </div>
+    </div>
+
+        </section>
+
+        <section id="wcag" class="pagina">
+
+            <h2>WCAG e Paletas de Cores</h2>
+
+            <p>
+            WCAG é um padrão reconhecido internacionalmente, criado pelo W3C, com o intuito de tornar o conteúdo de sites e aplicativos mais acessíveis para pessoas com
+            deficiência. WCAG tem como principais princípios:
+            </p>
+            <ul>
+                <li><b>Perceptível:</b> O conteúdo deve ser percebido por pelo menos um dos sentidos (visão, audição ou tátil).</li>
+                <li><b>Funcional:</b> Toda a navegação e botões precisam funcionar (inclusive via teclado).</li>
+                <li><b>Compreensível:</b> A linguagem e a navegação devem ser claras e previsíveis.</li>
+                <li><b>Robusto:</b> O código deve funcionar em diferentes leitores de tela e leitores/navegadores</li>
+            </ul>
+
+
+            <h3>Acessibilidade</h3>
+
+            <p>
+                Uma interface acessível permite que diferentes pessoas
+                consigam utilizar um sistema com mais facilidade.
+            </p>
+
+
+            <h3>Contraste de cores</h3>
+
+            <p>
+                O contraste entre as cores é importante para facilitar a
+                leitura de textos e a visualização dos elementos.
+            </p>
+
+
+            <h3>Paleta utilizada</h3>
+
+            <div class="paleta">
+
+                <div class="azul-escuro">
+                    Azul escuro
+                </div>
+
+                <div class="azul">
+                    Azul
+                </div>
+
+                <div class="branco">
+                    Branco
+                </div>
+
+                <div class="preto">
+                    Cinza escuro
+                </div>
+
+            </div>
+
+
+            <h3>Hierarquia visual</h3>
+
+            <p>
+                A hierarquia visual ajuda o usuário a identificar quais
+                informações são mais importantes dentro de uma página.
+            </p>
+
+        </section>
+
+        <section id="uxui" class="pagina">
+
+            <h2>UX/UI em Desenvolvimento de Interfaces</h2>
+
+
+            <h3>O que é UX?</h3>
+
+            <p>
+                UX significa User Experience, ou Experiência do Usuário.
+                Está relacionada à forma como uma pessoa interage e se sente
+                ao utilizar um produto digital.
+            </p>
+
+
+            <h3>Principais características da UX</h3>
+
+            <ul>
+
+                <li>Facilidade de uso;</li>
+                <li>Navegação intuitiva;</li>
+                <li>Acessibilidade;</li>
+                <li>Eficiência;</li>
+                <li>Organização;</li>
+                <li>Satisfação do usuário.</li>
+
+            </ul>
+
+
+            <h3>O que é UI?</h3>
+
+            <p>
+                UI significa User Interface, ou Interface do Usuário.
+                É a parte visual e interativa de um sistema.
+            </p>
+
+
+            <h3>Principais características da UI</h3>
+
+            <ul>
+
+                <li>Cores;</li>
+                <li>Tipografia;</li>
+                <li>Botões;</li>
+                <li>Menus;</li>
+                <li>Ícones;</li>
+                <li>Organização visual.</li>
+
+            </ul>
+
+
+            <h3>UX/UI no Desenvolvimento de Interfaces</h3>
+
+            <p>
+                UX e UI trabalham juntas no desenvolvimento de interfaces.
+                A UX está relacionada à experiência e facilidade de uso,
+                enquanto a UI está relacionada à aparência visual.
+            </p>
+
+
+            <h3>O que mudou nos últimos cinco anos?</h3>
+
+            <ul>
+
+                <li>Maior preocupação com acessibilidade;</li>
+                <li>Maior utilização de inteligência artificial;</li>
+                <li>Interfaces responsivas para diferentes dispositivos;</li>
+                <li>Experiências mais personalizadas;</li>
+                <li>Interfaces mais simples e organizadas;</li>
+                <li>Maior preocupação com privacidade.</li>
+
+            </ul>
+
+
+            <h3>Conclusão</h3>
+
+            <p>
+                UX e UI são importantes para criar sistemas que sejam bonitos,
+                organizados, fáceis de utilizar e acessíveis para diferentes
+                usuários.
+            </p>
+
+        </section>
+
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            Projeto de Desenvolvimento de Interfaces
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
